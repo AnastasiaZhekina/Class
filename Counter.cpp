@@ -4,7 +4,7 @@
 Counter::Counter() {
     num = 1;
 }
-    void add() { num = num + 1; }
-    void subtract() { num = num - 1; }
-    int getx() { return num; }
+    void Counter::add() { num = num + 1; }
+    void Counter::subtract() { num = num - 1; }
+    int Counter::getx() { return num; }
 

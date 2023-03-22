@@ -1,7 +1,4 @@
-#ifndef COUNTER_H
-#define COUNTER_H
-
-
+#pragma once
 class Counter {
     int num;
 public:
@@ -11,4 +8,3 @@ public:
     void subtract();
     int getx();
 };
-#endif // !COUNTTER_H
